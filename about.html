@@ -1,0 +1,78 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+ <meta http-equiv="Content-Type" content="text/html; utf-8">
+   <head>
+   	<script src="https://kit.fontawesome.com/109041bdb0.js" crossorigin="anonymous"></script>
+	<meta name="viewport" content="widht=device-widht, initial-scale=1.0">
+	<title>University Website Design - Tutorials</title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet"  href="http://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+ <body>
+	<section class="sub-header">
+		<nav>
+			<a href="index.html"><img src="img/logo.png"></a>
+		    <div class="nav-links" id="navLinks">
+				<i class="fa fa-times" onclick="hideMenu()"></i>
+				<ul>
+					<li><a href="index.html">HOME</a></li>
+					<li><a href="about.html">ABOUT</a></li>
+					<li><a href="course.html">COURSE</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="contact.html">CONTACT</a></li>
+				</ul>
+			</div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+		</nav>
+		<h1>About Us</h1>
+     </section>
+
+     <!--- About us Content --->
+
+     <section class="about-us">
+     	<div class="row">
+     		<div class="about-col">
+     			<h1>MBA program business School Income growth after training!</h1>
+     			<p>Leave a request and get the First Lesson for Free!</p>
+     			<a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+     		</div>
+     		<div class="about-col">
+     			<img src="img/about.jpg">
+     		</div>
+     	</div>
+     </section>
+
+<!---Footer --->
+
+<section class="footer">
+	<h4>About us</h4>
+	<p>Adress,<br> INN.</p>
+	<div class="icons">
+		<i class="fab fa-facebook"></i>
+		<i class="fab fa-twitter"></i>
+		<i class="fab fa-instagram"></i>
+		<i class="fab fa-linkedin"></i>
+	</div>
+	<p>Made with <i class="far fa-heart"></i>MBA program business School</p>
+	</section>
+
+<!---JavaScript for Toggle Menu--->
+
+		 <script>
+
+		var navLinks = document.getElementById("navLinks");
+
+		function showMenu(){
+			navLinks.style.right = "0";
+		}
+		function hideMenu(){
+			navLinks.style.right = "-200px";
+		}
+
+
+		 </script>
+  </body>
+</html>
